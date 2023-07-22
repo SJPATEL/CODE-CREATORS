@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ccea927.css",
+    "main.js": "/static/js/main.eeb1e8ad.js",
+    "static/js/787.0b8cd1df.chunk.js": "/static/js/787.0b8cd1df.chunk.js",
+    "static/media/PYTHON2.png": "/static/media/PYTHON2.691da4247e7524453a8a.png",
+    "static/media/hero-02.jpg": "/static/media/hero-02.b31d1f99f13b5969ec02.jpg",
+    "static/media/free_Delivery-removebg-preview (1).png": "/static/media/free_Delivery-removebg-preview (1).124f4231d4c63042efaf.png",
+    "static/media/PHP2.png": "/static/media/PHP2.6c67d016f8e2da09fef1.png",
+    "static/media/BOOTSTRAP2.png": "/static/media/BOOTSTRAP2.0018c013c15707a8249a.png",
+    "static/media/CSS2.png": "/static/media/CSS2.426d21aa56685a1c8a21.png",
+    "static/media/JAVASCRIPT2.png": "/static/media/JAVASCRIPT2.c82237f1cec686f8482a.png",
+    "static/media/HTML2.png": "/static/media/HTML2.4a9a08c4c66d6585b391.png",
+    "static/media/home-mobile-hero.svg": "/static/media/home-mobile-hero.82a1ff7f6932226d1d249fdd75189c80.svg",
+    "index.html": "/index.html",
+    "main.7ccea927.css.map": "/static/css/main.7ccea927.css.map",
+    "main.eeb1e8ad.js.map": "/static/js/main.eeb1e8ad.js.map",
+    "787.0b8cd1df.chunk.js.map": "/static/js/787.0b8cd1df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ccea927.css",
+    "static/js/main.eeb1e8ad.js"
+  ]
+}
