@@ -10,7 +10,7 @@ require('./db/conn');
 const app = express();
 app.use(cors(
     {
-        origin :['https://codecreators.onrender.com/']
+        origin :['https://codecreators.onrender.com']
     }
 ));
 const port = process.env.PORT  || 5000;
