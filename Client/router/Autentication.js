@@ -139,7 +139,15 @@ router.post("/forgetpass", [
 })
 
 router.get('/getUser', AuthMiddle, async (req, res) => {
-    res.send(req.user);
+    let success = flase;
+    try {
+
+        res.send(req.user);
+    } catch (error) {
+            success = true;
+            res.status(400).json({ "error": "not send", success })
+    }
+
 })
 
 router.post("/contact", [

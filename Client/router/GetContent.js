@@ -10,34 +10,79 @@ const PHPTOPIC = require('../../Admin/Models/PhpModel');
 const PYTHONTOPIC = require('../../Admin/Models/PythonModel');
 
 router.get('/gethtmlcontent', async (req, res) => {
+        let success = flase;
+        try {
 
-        let findHtmlTitle = await HTMLTOPIC.find();
-        res.send(findHtmlTitle)
+                let findHtmlTitle = await HTMLTOPIC.find();
+                res.send(findHtmlTitle)
+        } catch (error) {
+                success = true;
+                res.status(400).json({ "error": "not send", success })
+        }
+
 })
 router.get('/getcsscontent', async (req, res) => {
+        let success = flase;
+        try {
 
-        let findCssTitle = await CSSTOPIC.find();
-        res.send(findCssTitle) 
+                let findCssTitle = await CSSTOPIC.find();
+                res.send(findCssTitle)
+        } catch (error) {
+                success = true;
+                res.status(400).json({ "error": "not send", success })
+        }
+
+
+
 })
 router.get('/getjavascriptcontent', async (req, res) => {
+        let success = flase;
+        try {
 
-        let findJavascriptTitle = await JAVASCRIPTTOPIC.find();
-        res.send(findJavascriptTitle)
+                let findJavascriptTitle = await JAVASCRIPTTOPIC.find();
+                res.send(findJavascriptTitle)
+        } catch (error) {
+                success = true;
+                res.status(400).json({ "error": "not send", success })
+        }
+
 })
 router.get('/getbootsstrapcontent', async (req, res) => {
+        let success = flase;
+        try {
+                let findbootsstrapTitle = await BOOTSSTRAPTOPIC.find();
+                res.send(findbootsstrapTitle)
+        } catch (error) {
+                success = true;
+                res.status(400).json({ "error": "not send", success })
+        }
 
-        let findbootsstrapTitle = await BOOTSSTRAPTOPIC.find();
-        res.send(findbootsstrapTitle)
+
+
 })
 router.get('/getphpcontent', async (req, res) => {
+        let success = flase;
+        try {
+                let findphpTitle = await PHPTOPIC.find();
+                res.send(findphpTitle)
+        } catch (error) {
+                success = true;
+                res.status(400).json({ "error": "not send", success })
+        }
 
-        let findphpTitle = await PHPTOPIC.find();
-        res.send(findphpTitle)
+
 })
 router.get('/getpythoncontent', async (req, res) => {
+        let success = flase;
+        try {
 
-        let findPythonTitle = await PYTHONTOPIC.find();
-        res.send(findPythonTitle)
+                let findPythonTitle = await PYTHONTOPIC.find();
+                res.send(findPythonTitle)
+        } catch (error) {
+                success = true;
+                res.status(400).json({ "error": "not send", success })
+        }
+
 })
 
 module.exports = router;
