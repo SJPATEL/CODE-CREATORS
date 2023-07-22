@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "SERVER" : "nodemon index.js",
+    "RYSCODE": "npm start --prefix ./RYSCODE ",
+    "dev" : "concurrenly \"npm start\" \"npm run RYSCODE\" "
   },
   "keywords": [],
   "author": "",
